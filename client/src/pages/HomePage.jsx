@@ -13,7 +13,7 @@ const HomePage = () => {
       <div className="flex gap-4 flex-col lg:flex-row justify-center items-start">
         <ProfileInfo />
         <Repos />
-        <Spinner />
+        {/* <Spinner /> */}
       </div>
     </div>
   );
